@@ -4,7 +4,7 @@ ETL Task
 
 ## Installation
 
-The project can be ran if one has Docker and docker-compose already available with one line: `docker-compose -f etl-task.yml up -d`. This will pull three prebuilt containers and set up everything for the user. 
+The project can be ran if one has Docker and docker-compose already available with one line: `docker-compose -f etl-task.yml up -d`. This will pull three prebuilt containers and set up everything for the user. Clone this repository with `git clone https://github.com/high1/etl-task.git`, it contains both the docker-compose file and Postman collection. You need [git](https://git-scm.com/) SCM for this.
 
 ## Usage
 
