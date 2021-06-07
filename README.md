@@ -17,7 +17,7 @@ which uses [JSON](https://en.wikipedia.org/wiki/JSON) body for parameters that w
 
 ## Contributing
 
-The code for the both containers is on GitHub, [etl-data-gen](https://github.com/high1/etl-data-gen) and [etl-job-exec](https://github.com/high1/etl-job-exec). Both repos contain everything that's need to run or build the containers localy.
+The code for the both containers is on GitHub, [etl-data-gen](https://github.com/high1/etl-data-gen) and [etl-job-exec](https://github.com/high1/etl-job-exec). Both repos contain everything that's needed to run or build the containers localy.
 
 1. Fork it or clone it with `git clone` following with the URL!
 2. Create your feature branch: `git checkout -b my-new-feature`
