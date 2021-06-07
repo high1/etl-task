@@ -26,7 +26,7 @@ The code for the both containers is on GitHub, [etl-data-gen](https://github.com
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-For both containers, [Visual Studio Code](https://code.visualstudio.com/) was used for development. All of the code base is linted with ESLint, and uses wide set of [ESLint](https://eslint.org/) to keep the code clean and consistent. [Prettier](https://prettier.io/) is used for code formatting. [ESLint VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) is essential for the development.
+For both containers, [Visual Studio Code](https://code.visualstudio.com/) was used for development. All of the code base is linted with ESLint, and uses wide set of [ESLint](https://eslint.org/) preconfigured rule sets to keep the code clean and consistent. [Prettier](https://prettier.io/) is used for code formatting. [ESLint VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) is essential for the development.
 
 ## History
 
