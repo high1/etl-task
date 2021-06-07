@@ -1,0 +1,30 @@
+services:
+  mongo:
+    image: mongo:latest
+    container_name: etl-mongo
+    command: mongod
+    ports:
+      - 27017:27017
+    restart: always
+    volumes:
+      - etl-data:/data/db
+
+  data-gen:
+    image: high1/etl-data-gen:latest
+    container_name: etl-data-gen
+    restart: always
+    ports:
+     - 3000:3000
+
+  etl-job-exec:
+    image: high1/etl-job-exec:latest
+    container_name: etl-job-exec
+    ports:
+      - 4000:4000
+
+networks:
+  default:
+    name: etl-net
+
+volumes:
+  etl-data:
