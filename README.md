@@ -4,7 +4,7 @@ ETL Task
 
 ## Installation
 
-The project can be ran if one has Docker and docker-compose already available with one line: `docker-compose -f etl-task.yml up -d`. This will pull three existing containers and set up everything. 
+The project can be ran if one has Docker and docker-compose already available with one line: `docker-compose -f etl-task.yml up -d`. This will pull three prebuilt containers and set up everything for the user. 
 
 ## Usage
 
